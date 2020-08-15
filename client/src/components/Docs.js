@@ -6,11 +6,11 @@ const Docs = () => {
     const [url,setUrl] = useState(window.location.host)
 
     const [examples, setExamples] = useState([
-        "/150",
-        "/350x150",
-        "/150/blue",
-        "/222x150/blue/red",
-        "/555?text=Hello+From+PM+World",
+        "/images/150",
+        "/images/350x150",
+        "/images/150/blue",
+        "/images/222x150/blue/red",
+        "/images/555?text=Hello+From+PM+World",
     ])
 
     return (
